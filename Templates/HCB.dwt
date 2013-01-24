@@ -1,0 +1,118 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+ 
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <!-- TemplateBeginEditable name="doctitle" -->
+  <title>High Country Brass - HOME</title>
+  <!-- TemplateEndEditable -->
+ <link href="../stylesheets/reset.css" rel="stylesheet" type="text/css" />
+  <script type="text/javascript" src="../scripts/browser-compatibility.js"></script>
+  <link href="../stylesheets/layout-css-3.css" rel="stylesheet" type="text/css" />
+  <!-- TemplateBeginEditable name="head" -->
+  <!-- TemplateEndEditable -->
+</head>
+ <body>
+  <div class="main_wrapper cf">
+   <div class="header cf">
+    <div class="logo_wrapper ui-droppable">
+     <img alt="High Country Brass" width="255" class="image" src="../images/HighCountryBrass.png" />
+    </div>
+    <div class="column_1">
+     <ul class="hmenubar cf">
+       <!-- TemplateBeginEditable name="menu" -->
+       <li class=""><a class="clicked" href="" target="_self">Home</a></li>
+       <li class=""><a href="news.html" target="_self" class="">News<br/>
+       </a></li>
+       <li class=""><a href="aboutUs.html" target="_self" class="">About Us</a></li>
+       <li class=""><a href="membership.html" target="_self" class="">Membership</a></li>
+       <li class=""><a href="support.html" target="_self" class="">Support</a></li>
+       <!-- TemplateEndEditable -->
+     </ul>
+    </div>
+   </div>
+   <div class="content_wrapper cf"> <!-- TemplateBeginEditable name="mainContent" -->
+   <div class="slideshow cf">
+     <div class="column_8">
+       <div class="row_4 cf">
+         <p class="paragraph"><span style="font-size: 16px; " class="span">2013 Show Preview</span></p>
+       </div>
+       <div class="row_5 cf">
+         <iframe width="100%" height="315" src="http://www.youtube.com/embed/XKL7cZzaAWc" frameborder="0" allowfullscreen=""></iframe>
+       </div>
+     </div>
+     <div class="column_9">
+       <div class="row_6 cf">
+         <p class="paragraph1"><span style="font-size: 16px; " class="span1">High Country Brass - Check us out!</span></p>
+       </div>
+       <div class="row_7 cf">
+         <iframe width="100%" height="315" src="http://www.youtube.com/embed/D3KYsiymEHA" frameborder="0" allowfullscreen=""></iframe>
+       </div>
+     </div>
+   </div>
+   <div class="content cf">
+     <div class="articles-row1 cf">
+       <div class="article_two clear">
+         <h2>HCB is a DCA Member</h2>
+         <img class="article_two_img" alt="" src="../images/dcaMember.jpg" />
+         <p>High Country Brass is pleased to announce that is has been accepted into the Class A Division of Drum Corps Associates (DCA).</p>
+         <a class="article_two_btn" href="http://highcountrybrass.org/DCA_Acceptance.aspx" target="_self">read more</a></div>
+       <div class="article_two">
+         <h2>HCB is a DCI Member</h2>
+         <img class="article_two_img" alt="" src="../images/dciMember.jpg" />
+         <p>High Country Brass has been accepted as an associate member of Drum Corps International (DCI) in the all-age division! &nbsp;</p>
+         <a class="article_two_btn" href="http://highcountrybrass.org/DCI_Acceptance.aspx" target="_self">read more</a></div>
+       <div class="article_two">
+         <h2>HCB Newsletter</h2>
+         <img class="article_two_img" alt="" width="97" src="../images/latestNewsSmall.jpg" />
+         <p>Check out our latest Newsletter!&nbsp; <br/>
+           <br/>
+           <br/>
+         </p>
+         <a class="article_two_btn" href="http://www.icontact-archive.com/Tl08SBWZF62knnXp0nmT_de70PxWzTyJ?w=3" target="_self">read more</a></div>
+     </div>
+     <div class="footer cf">
+       <div class="joinus">
+         <div class="column_11"> <img width="135" height="351" class="image4" src="../images/joinUsMed.png" /> <span style="font-size: 10pt; font-family: Arial; color: black; text-align: center; "><br/>
+           <a href="https://www.facebook.com/HighCountryBrass?sk=wall"><img src="../images/fbLink.gif"/></a></span> <span style="font-size: 10pt; font-family: Arial; text-align: center; " class=""> <br/>
+             <br/>
+             </span> <br/>
+           <br/>
+           <font color="#FFFFFF"><u><br/>
+           </u></font></div>
+         <div class="column_12">
+           <p>Make the decision to march again with High Country Brass for our 2013 season!</p>
+           <p><a href="http://www.dcacorps.org/?page_id=133">DCA Championships</a> <br/>
+             will be held in Annapolis, MD!</p>
+           <p class="paragraph2">Find out <a href="http://highcountrybrass.org/HowToJoin.aspx">how to join!</a> <br/>
+             <br/>
+             We have openings in all sections: <br/>
+           </p>
+           <ul style="color:#FFFFFF">
+             <li>Hornline</li>
+             <li>Battery</li>
+             <li>Pit</li>
+             <li>Color Guard</li>
+           </ul>
+           <p>If you'd like more information, please contact our recruiter, Erin Truax, <a href="mailto:recruiter@highcountrybrass.org">via email</a>. <br/>
+             Thanks for stopping by our site!</p>
+         </div>
+       </div>
+       <div class="column_3">
+         <div class="row_11 cf">
+           <p><span style="font-size: 18px; ">High Country Brass Calendar</span></p>
+         </div>
+         <iframe src="http://www.google.com/calendar/embed?showTitle=0&amp;showTabs=0&amp;showCalendars=0&amp;mode=AGENDA&amp;height=300&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=hcbweb%40gmail.com&amp;color=%232952A3&amp;ctz=America%2FDenver" style=" border-width:0 " scrolling="no" class="customClass">&lt;xeditortext class="xeditor-text" style="display:none;visibility:hidden" internal="true"&gt;&lt;p&gt;&lt;/p&gt;&lt;h1&gt;&lt;/h1&gt;&lt;h2&gt;&lt;/h2&gt;&lt;h3&gt;&lt;/h3&gt;&lt;h4&gt;&lt;/h4&gt;&lt;h5&gt;&lt;/h5&gt;&lt;h6&gt;&lt;/h6&gt;&lt;a&gt;&lt;/a&gt;&lt;li&gt;&lt;/li&gt;&lt;span&gt;&lt;/span&gt;&lt;/xeditortext&gt;&lt;xeditortext class="xeditor-text" style="display:none;visibility:hidden" internal="true"&gt;&lt;p&gt;&lt;/p&gt;&lt;h1&gt;&lt;/h1&gt;&lt;h2&gt;&lt;/h2&gt;&lt;h3&gt;&lt;/h3&gt;&lt;h4&gt;&lt;/h4&gt;&lt;h5&gt;&lt;/h5&gt;&lt;h6&gt;&lt;/h6&gt;&lt;a&gt;&lt;/a&gt;&lt;li&gt;&lt;/li&gt;&lt;span&gt;&lt;/span&gt;&lt;/xeditortext&gt;&lt;xeditortext class="xeditor-text" style="display:none;visibility:hidden" internal="true"&gt;&lt;p&gt;&lt;/p&gt;&lt;h1&gt;&lt;/h1&gt;&lt;h2&gt;&lt;/h2&gt;&lt;h3&gt;&lt;/h3&gt;&lt;h4&gt;&lt;/h4&gt;&lt;h5&gt;&lt;/h5&gt;&lt;h6&gt;&lt;/h6&gt;&lt;a&gt;&lt;/a&gt;&lt;li&gt;&lt;/li&gt;&lt;span&gt;&lt;/span&gt;&lt;/xeditortext&gt;&lt;xeditortext class="xeditor-text" style="display:none;visibility:hidden" internal="true"&gt;&lt;p&gt;&lt;/p&gt;&lt;h1&gt;&lt;/h1&gt;&lt;h2&gt;&lt;/h2&gt;&lt;h3&gt;&lt;/h3&gt;&lt;h4&gt;&lt;/h4&gt;&lt;h5&gt;&lt;/h5&gt;&lt;h6&gt;&lt;/h6&gt;&lt;a&gt;&lt;/a&gt;&lt;li&gt;&lt;/li&gt;&lt;span&gt;&lt;/span&gt;&lt;/xeditortext&gt;&lt;xeditortext class="xeditor-text" style="display:none;visibility:hidden" internal="true"&gt;&lt;p&gt;&lt;/p&gt;&lt;h1&gt;&lt;/h1&gt;&lt;h2&gt;&lt;/h2&gt;&lt;h3&gt;&lt;/h3&gt;&lt;h4&gt;&lt;/h4&gt;&lt;h5&gt;&lt;/h5&gt;&lt;h6&gt;&lt;/h6&gt;&lt;a&gt;&lt;/a&gt;&lt;li&gt;&lt;/li&gt;&lt;span&gt;&lt;/span&gt;&lt;/xeditortext&gt;</iframe>
+         <div class="row_12 cf">
+           <p> <span style="color: rgb(255, 0, 0); font-size:12px"> **</span><span style="color: rgb(0, 0, 255);; font-size:12px"> </span><a href="https://www.google.com/calendar/embed?showTabs=0&amp;mode=AGENDA&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=hcbweb%40gmail.com&amp;color=%232952A3&amp;ctz=America%2FDenver" target="_blank" style="font-size:12px"> Click here</a><span style="color: rgb(255, 255, 255);; font-size:12px"> if you are having difficulty viewing the calendar.</span></p>
+         </div>
+       </div>
+     </div>
+   </div>
+   <!-- TemplateEndEditable -->
+   </div>
+  </div>
+  
+ </body>
+
+</html>

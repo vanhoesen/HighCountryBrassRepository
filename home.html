@@ -1,0 +1,554 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<style>
+#shade {
+	visibility: hidden;
+	z-index: 999;
+	position: fixed; 
+    top:0; 
+    left:0; 
+    bottom:0; 
+    right:0;  
+    background:#000000;
+    opacity: .5;
+    -moz-opacity: .5;
+    filter: alpha(opacity=50);
+    border:1px solid #cecece;
+}
+#popup {
+     visibility: hidden;
+     position: absolute;
+     left: 0px;
+     top: 0px;
+     width:100%;
+     height:100%;
+     text-align:center;
+     z-index: 1000;
+}
+#popup div {
+     width:400px;
+     margin: 100px auto;
+     background-color: #fff;
+     border:1px solid #000;
+     padding:15px;
+     text-align:center;
+}
+</style>
+<script type="text/javascript" language="javascript" src="EventBus.js"></script>
+<script>
+function newsletterSignup() {
+	sh = document.getElementById("shade");
+	sh.style.visibility = "visible";
+	el = document.getElementById("popup");
+	el.style.visibility = "visible";
+}
+
+function closeNewsLetterSignUp() {
+	sh = document.getElementById("shade");
+	sh.style.visibility = "hidden";
+	el = document.getElementById("popup");
+	el.style.visibility = "hidden";
+}
+
+function submit() {
+	icpsignup4073.submit();
+}
+</script>
+<div id="shade" onmouseup="popup()">
+</div>
+<div id="popup">
+     <div>
+     	<script type="text/javascript">
+			var icpForm4073 = document.getElementById('icpsignup4073');
+			if (document.location.protocol === "https:")
+				icpForm4073.action = "https://app.icontact.com/icp/signup.php";
+			
+			function verifyRequired4073() {
+			  if (icpForm4073["fields_email"].value == "") {
+				icpForm4073["fields_email"].focus();
+				alert("The Email field is required.");
+				return false;
+			  }
+			
+			  if (icpForm4073["fields_fname"].value == "") {
+				icpForm4073["fields_fname"].focus();
+				alert("The First Name field is required.");
+				return false;
+			  }
+			
+			  if (icpForm4073["fields_lname"].value == "") {
+				icpForm4073["fields_lname"].focus();
+				alert("The Last Name field is required.");
+				return false;
+			  }
+				
+			  return true;
+			}
+			</script>
+        <form method=post action="https://app.icontact.com/icp/signup.php" name="icpsignup" id="icpsignup4073" accept-charset="UTF-8" onsubmit="return verifyRequired4073();" >
+
+			<input type=hidden name=redirect value="http://www.icontact.com/www/signup/thanks.html" />
+
+			<input type=hidden name=errorredirect value="http://www.icontact.com/www/signup/error.html" />
+
+<table width="400px" class="signupframe" border="0" cellspacing="0" cellpadding="3">
+
+    <TR>
+
+      <TD colspan=2><b><font size="3">*</font><font size="2"> = Required Field</FONT></b><br /><br /></TD>
+
+    </TR>
+
+	<tr>
+
+      <td valign=top align=right width=120px>
+
+          <strong>
+
+        <font size="3" face="Arial,Helvetica, sans-serif">*</font> <font size="2">Email</font></strong>
+
+      </td>
+
+      <td align=left width=280px>
+
+        <input type=text name="fields_email">
+
+      </td>
+
+    </tr>
+
+	<tr>
+
+      <td valign=top align=right>
+
+          <strong>
+
+        <font size="3" face="Arial,Helvetica, sans-serif">*</font> <font size="2">First Name</font></strong>
+
+      </td>
+
+      <td align=left >
+
+        <input type=text name="fields_fname">
+
+      </td>
+
+    </tr>
+
+	<tr>
+
+      <td valign=top align=right>
+
+          <strong>
+
+        <font size="3" face="Arial,Helvetica, sans-serif">*</font> <font size="2">Last Name</font></strong>
+
+      </td>
+
+      <td align=left >
+
+        <input type=text name="fields_lname">
+
+      </td>
+
+    </tr>
+
+	<tr>
+
+      <td valign=top align=right>
+
+         <font size="2">Business Name</font>
+
+      </td>
+
+      <td align=left >
+
+        <input type=text name="fields_business">
+
+      </td>
+
+    </tr>
+
+	<tr>
+
+      <td valign=top align=right>
+
+         <font size="2">Address 1</font>
+
+      </td>
+
+      <td align=left >
+
+        <input type=text name="fields_address1">
+
+      </td>
+
+    </tr>
+
+	<tr>
+
+      <td valign=top align=right>
+
+         <font size="2">Address 2</font>
+
+      </td>
+
+      <td align=left >
+
+        <input type=text name="fields_address2">
+
+      </td>
+
+    </tr>
+
+	<tr>
+
+      <td valign=top align=right>
+
+         <font size="2">City</font>
+
+      </td>
+
+      <td align=left >
+
+        <input type=text name="fields_city">
+
+      </td>
+
+    </tr>
+
+	<tr>
+
+      <td valign=top align=right>
+
+         <font size="2">State</font>
+
+      </td>
+
+      <td align=left >
+
+        <input type=text name="fields_state">
+
+      </td>
+
+    </tr>
+
+	<tr>
+
+      <td valign=top align=right>
+
+         <font size="2">Zip</font>
+
+      </td>
+
+      <td align=left >
+
+        <input type=text name="fields_zip">
+
+      </td>
+
+    </tr>
+
+	<tr>
+
+      <td valign=top align=right>
+
+         <font size="2">Home Phone</font>
+
+      </td>
+
+      <td align=left >
+
+        <input type=text name="fields_phone">
+
+      </td>
+
+    </tr>    
+
+	<tr>
+
+      <td valign=top align=right>
+
+         <font size="2">Cell Phone</font>
+
+      </td>
+
+      <td align=left >
+
+        <input type=text name="fields_cellphone">
+
+      </td>
+
+    </tr>
+
+	<tr>
+
+      <td valign=top align=right>
+
+         <font size="2">Work Phone</font>
+
+      </td>
+
+      <td align=left >
+
+        <input type=text name="fields_workphone">
+
+      </td>
+
+    </tr>
+
+	<tr>
+
+      <td valign=top align=left colspan="2">
+
+      <br />
+
+         <b><font size="2">I am interested in becoming a:</font></b> &nbsp;
+
+      </td>
+
+    </tr>    
+
+	<tr>
+
+      <td valign=top align=right>
+
+        <input type=checkbox id="fields_friend" name="fields_friend"> <label for="fields_friend"><font size="2"></font></label> 
+
+      </td>
+
+      <td align=left >
+
+        <font size="2">Friend of HCB</font>
+
+      </td>
+
+    </tr>
+
+	<tr>
+
+      <td valign=top align=right>
+
+        <input type=checkbox id="fields_supporter" name="fields_supporter"> <label for="fields_supporter"><font size="2"></font></label> 
+
+      </td>
+
+      <td align=left >
+
+        <font size="2">Supporter of HCB</font>
+
+      </td>
+
+    </tr>    
+
+	<tr>
+
+      <td valign=top align=right>
+
+        <input type=checkbox id="fields_memberbrass" name="fields_memberbrass"> <label for="fields_memberbrass"><font size="2"></font></label> 
+
+      </td>
+
+      <td align=left >
+
+        <font size="2">Performing Member - HCB Brass</font>
+
+        
+
+      </td>
+
+    </tr>
+
+	<tr>
+
+      <td valign=top align=right>
+
+        <input type=checkbox id="fields_memberdrum" name="fields_memberdrum"> <label for="fields_memberdrum"><font size="2"></font></label> 
+
+      </td>
+
+      <td align=left >
+
+        <font size="2">Performing Member - HCB Drumline</font>
+
+      </td>
+
+    </tr>
+
+	<tr>
+
+      <td valign=top align=right>
+
+        <input type=checkbox id="fields_memberpit" name="fields_memberpit"> <label for="fields_memberpit"><font size="2"></font></label> 
+
+      </td>
+
+      <td align=left >
+
+        <font size="2">Performing Member - HCB Pit</font>
+
+      </td>
+
+    </tr>    
+
+	<tr>
+
+      <td valign=top align=right>
+
+        <input type=checkbox id="fields_memberguard" name="fields_memberguard"> <label for="fields_memberguard"><font size="2"></font></label> 
+
+      </td>
+
+      <td align=left >
+
+        <font size="2">Performing Member - HCB Color Guard</font>
+
+      </td>
+
+    </tr>
+
+	<tr>
+
+      <td valign=top align=right>
+
+        <input type=checkbox id="fields_memberstaff" name="fields_memberstaff"> <label for="fields_memberstaff"><font size="2"></font></label> 
+
+      </td>
+
+      <td align=left >
+
+        <font size="2">Staff Member/Instructor for HCB</font><br /><br />
+
+      </td>
+
+    </tr>
+
+    <input type=hidden name="listid" value="51495">
+
+    <input type=hidden name="specialid:51495" value="CH4O">
+
+
+
+    <input type=hidden name=clientid value="627633">
+
+    <input type=hidden name=formid value="4073">
+
+    <input type=hidden name=reallistid value="1">
+
+    <input type=hidden name=doubleopt value="1">
+    <input type="submit" value="Submit"/> <input type="button" onclick="popup()" value="Close"/>
+	</table>
+        </form>
+        <!--[<a href='#' onclick="submit()">Submit</a>][<a href='#' onclick="popup()">Close</a>]-->
+     </div>
+</div>
+<!-- InstanceBegin template="/Templates/HCB.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>High Country Brass - HOME</title>
+<!-- InstanceEndEditable -->
+<link href="stylesheets/reset.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="scripts/browser-compatibility.js"></script>
+<link href="stylesheets/layout-css-3.css" rel="stylesheet" type="text/css" />
+<!-- InstanceBeginEditable name="head" -->
+<!-- InstanceEndEditable -->
+</head>
+<body>
+<div class="main_wrapper cf">
+  <div class="header cf">
+    <div class="logo_wrapper ui-droppable"> <img alt="High Country Brass" width="255" class="image" src="images/HighCountryBrass.png" /> </div>
+    <div class="column_1">
+      <ul class="hmenubar cf">
+        <!-- InstanceBeginEditable name="menu" -->
+          <li class=""><a class="clicked" href="home.html" target="_self">Home</a></li>
+          <li class=""><a href="news.html" target="_self" class="">News<br/>
+          </a></li>
+          <li class=""><a href="aboutUs.html" target="_self" class="">About Us</a></li>
+          <li class=""><a href="membership.html" target="_self" class="">Membership</a></li>
+          <li class=""><a href="support.html" target="_self" class="">Support</a></li>
+        <!-- InstanceEndEditable -->
+      </ul>
+    </div>
+  </div>
+  <div class="content_wrapper cf"> <!-- InstanceBeginEditable name="mainContent" -->
+    <div class="slideshow cf">
+      <div class="column_8">
+        <div class="row_4 cf">
+          <div class="row_22">
+            <div class="column_19">
+              <div class="column_9">
+                <div class="row_6 cf">
+                  <p class="paragraph1"><span style="font-size: 16px; " class="span1">High Country Brass - Check us out!</span></p>
+                </div>
+                <div class="row_7 cf">
+                  <iframe width="100%" height="315" src="http://www.youtube.com/embed/D3KYsiymEHA" frameborder="0" allowfullscreen="">&lt;xeditortext class="xeditor-text" style="display:none;visibility:hidden" internal="true"&gt;&lt;/xeditortext&gt;&lt;xeditortext class="xeditor-text" style="display:none;visibility:hidden" internal="true"&gt;&lt;p&gt;&lt;/p&gt;&lt;h1&gt;&lt;/h1&gt;&lt;h2&gt;&lt;/h2&gt;&lt;h3&gt;&lt;/h3&gt;&lt;h4&gt;&lt;/h4&gt;&lt;h5&gt;&lt;/h5&gt;&lt;h6&gt;&lt;/h6&gt;&lt;a&gt;&lt;/a&gt;&lt;li&gt;&lt;/li&gt;&lt;span&gt;&lt;/span&gt;&lt;/xeditortext&gt;&lt;xeditortext class="xeditor-text" style="display:none;visibility:hidden" internal="true"&gt;&lt;/xeditortext&gt;&lt;xeditortext class="xeditor-text" style="display:none;visibility:hidden" internal="true"&gt;&lt;p&gt;&lt;/p&gt;&lt;h1&gt;&lt;/h1&gt;&lt;h2&gt;&lt;/h2&gt;&lt;h3&gt;&lt;/h3&gt;&lt;h4&gt;&lt;/h4&gt;&lt;h5&gt;&lt;/h5&gt;&lt;h6&gt;&lt;/h6&gt;&lt;a&gt;&lt;/a&gt;&lt;li&gt;&lt;/li&gt;&lt;span&gt;&lt;/span&gt;&lt;/xeditortext&gt;</iframe>
+                </div>
+              </div>
+            </div>
+            <div class="column_20">
+              <p class="paragraph1"><span style="font-size: 16px; " class="span1">2013 Show Preview</span></p>
+              <iframe width="100%" height="315" src="http://www.youtube.com/embed/XKL7cZzaAWc" frameborder="0" allowfullscreen="" class="">&lt;xeditortext class="xeditor-text" style="display:none;visibility:hidden" internal="true"&gt;&lt;p&gt;&lt;/p&gt;&lt;h1&gt;&lt;/h1&gt;&lt;h2&gt;&lt;/h2&gt;&lt;h3&gt;&lt;/h3&gt;&lt;h4&gt;&lt;/h4&gt;&lt;h5&gt;&lt;/h5&gt;&lt;h6&gt;&lt;/h6&gt;&lt;a&gt;&lt;/a&gt;&lt;li&gt;&lt;/li&gt;&lt;span&gt;&lt;/span&gt;&lt;/xeditortext&gt;&lt;xeditortext class="xeditor-text" style="display:none;visibility:hidden" internal="true"&gt;&lt;p&gt;&lt;/p&gt;&lt;h1&gt;&lt;/h1&gt;&lt;h2&gt;&lt;/h2&gt;&lt;h3&gt;&lt;/h3&gt;&lt;h4&gt;&lt;/h4&gt;&lt;h5&gt;&lt;/h5&gt;&lt;h6&gt;&lt;/h6&gt;&lt;a&gt;&lt;/a&gt;&lt;li&gt;&lt;/li&gt;&lt;span&gt;&lt;/span&gt;&lt;/xeditortext&gt;&lt;xeditortext class="xeditor-text" style="display:none;visibility:hidden" internal="true"&gt;&lt;p&gt;&lt;/p&gt;&lt;h1&gt;&lt;/h1&gt;&lt;h2&gt;&lt;/h2&gt;&lt;h3&gt;&lt;/h3&gt;&lt;h4&gt;&lt;/h4&gt;&lt;h5&gt;&lt;/h5&gt;&lt;h6&gt;&lt;/h6&gt;&lt;a&gt;&lt;/a&gt;&lt;li&gt;&lt;/li&gt;&lt;span&gt;&lt;/span&gt;&lt;/xeditortext&gt;&lt;xeditortext class="xeditor-text" style="display:none;visibility:hidden" internal="true"&gt;&lt;/xeditortext&gt;</iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="content cf">
+      <div class="articles-row1 cf">
+        <div class="article_two clear">
+          <h2>HCB is a DCA Member</h2>
+          <img class="article_two_img" alt="" src="images/dcaMember.jpg" />
+          <p>High Country Brass is pleased to announce that is has been accepted into the Class A Division of Drum Corps Associates (DCA).</p>
+          <a class="article_two_btn" href="news.html#dca" target="_self">read more</a></div>
+        <div class="article_two">
+          <h2>HCB Newsletter</h2>
+          <img class="article_two_img" alt="" width="97" src="images/latestNewsSmall.jpg" />
+          <p>Sign up to receive our newsletter!&nbsp; <br/>
+            <br/>
+          </p>
+          <a class="article_two_btn" href="#" onclick="popup()">Sign up!</a></div>
+      </div>
+      <div class="footer cf">
+        <div class="joinus">
+          <div class="column_11"> <img width="135" height="351" class="image4" src="images/joinUsMed.png" /> <span style="font-size: 10pt; font-family: Arial; color: black; text-align: center; "><br/>
+            <a href="#" onclick="overlay()"><img src="images/fbLink.gif"/></a></span> <span style="font-size: 10pt; font-family: Arial; text-align: center; " class=""> <br/>
+              <br/>
+              </span> <br/>
+            <br/>
+            <font color="#FFFFFF"><u><br/>
+            </u></font></div>
+          <div class="column_12">
+            <p>Make the decision to march again with High Country Brass for our 2013 season!</p>
+            <p><a href="http://www.dcacorps.org/?page_id=133">DCA Championships</a> <br/>
+              will be held in Annapolis, MD!</p>
+            <p class="paragraph2">Find out <a href="http://highcountrybrass.org/HowToJoin.aspx">how to join!</a> <br/>
+              <br/>
+              We have openings in all sections: <br/>
+            </p>
+            <ul style="color:#FFFFFF">
+              <li>Hornline</li>
+              <li>Battery</li>
+              <li>Pit</li>
+              <li>Color Guard</li>
+            </ul>
+            <p>If you'd like more information, please contact our recruiter, Erin Truax, <a href="mailto:recruiter@highcountrybrass.org">via email</a>. <br/>
+              Thanks for stopping by our site!</p>
+          </div>
+        </div>
+        <div class="column_3">
+          <div class="row_11 cf">
+            <p><span style="font-size: 18px; ">High Country Brass Calendar</span></p>
+          </div>
+          <iframe src="http://www.google.com/calendar/embed?showTitle=0&amp;showTabs=0&amp;showCalendars=0&amp;mode=AGENDA&amp;height=300&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=hcbweb%40gmail.com&amp;color=%232952A3&amp;ctz=America%2FDenver" style=" border-width:0 " scrolling="no" class="customClass">&lt;xeditortext class="xeditor-text" style="display:none;visibility:hidden" internal="true"&gt;&lt;p&gt;&lt;/p&gt;&lt;h1&gt;&lt;/h1&gt;&lt;h2&gt;&lt;/h2&gt;&lt;h3&gt;&lt;/h3&gt;&lt;h4&gt;&lt;/h4&gt;&lt;h5&gt;&lt;/h5&gt;&lt;h6&gt;&lt;/h6&gt;&lt;a&gt;&lt;/a&gt;&lt;li&gt;&lt;/li&gt;&lt;span&gt;&lt;/span&gt;&lt;/xeditortext&gt;&lt;xeditortext class="xeditor-text" style="display:none;visibility:hidden" internal="true"&gt;&lt;p&gt;&lt;/p&gt;&lt;h1&gt;&lt;/h1&gt;&lt;h2&gt;&lt;/h2&gt;&lt;h3&gt;&lt;/h3&gt;&lt;h4&gt;&lt;/h4&gt;&lt;h5&gt;&lt;/h5&gt;&lt;h6&gt;&lt;/h6&gt;&lt;a&gt;&lt;/a&gt;&lt;li&gt;&lt;/li&gt;&lt;span&gt;&lt;/span&gt;&lt;/xeditortext&gt;&lt;xeditortext class="xeditor-text" style="display:none;visibility:hidden" internal="true"&gt;&lt;p&gt;&lt;/p&gt;&lt;h1&gt;&lt;/h1&gt;&lt;h2&gt;&lt;/h2&gt;&lt;h3&gt;&lt;/h3&gt;&lt;h4&gt;&lt;/h4&gt;&lt;h5&gt;&lt;/h5&gt;&lt;h6&gt;&lt;/h6&gt;&lt;a&gt;&lt;/a&gt;&lt;li&gt;&lt;/li&gt;&lt;span&gt;&lt;/span&gt;&lt;/xeditortext&gt;&lt;xeditortext class="xeditor-text" style="display:none;visibility:hidden" internal="true"&gt;&lt;p&gt;&lt;/p&gt;&lt;h1&gt;&lt;/h1&gt;&lt;h2&gt;&lt;/h2&gt;&lt;h3&gt;&lt;/h3&gt;&lt;h4&gt;&lt;/h4&gt;&lt;h5&gt;&lt;/h5&gt;&lt;h6&gt;&lt;/h6&gt;&lt;a&gt;&lt;/a&gt;&lt;li&gt;&lt;/li&gt;&lt;span&gt;&lt;/span&gt;&lt;/xeditortext&gt;&lt;xeditortext class="xeditor-text" style="display:none;visibility:hidden" internal="true"&gt;&lt;p&gt;&lt;/p&gt;&lt;h1&gt;&lt;/h1&gt;&lt;h2&gt;&lt;/h2&gt;&lt;h3&gt;&lt;/h3&gt;&lt;h4&gt;&lt;/h4&gt;&lt;h5&gt;&lt;/h5&gt;&lt;h6&gt;&lt;/h6&gt;&lt;a&gt;&lt;/a&gt;&lt;li&gt;&lt;/li&gt;&lt;span&gt;&lt;/span&gt;&lt;/xeditortext&gt;</iframe>
+          <div class="row_12 cf">
+            <p> <span style="color: rgb(255, 0, 0); font-size:12px"> **</span><span style="color: rgb(0, 0, 255);; font-size:12px"> </span><a href="https://www.google.com/calendar/embed?showTabs=0&amp;mode=AGENDA&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=hcbweb%40gmail.com&amp;color=%232952A3&amp;ctz=America%2FDenver" target="_blank" style="font-size:12px"> Click here</a><span style="color: rgb(255, 255, 255);; font-size:12px"> if you are having difficulty viewing the calendar.</span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  <!-- InstanceEndEditable --> </div>
+</div>
+</body>
+<!-- InstanceEnd -->
+</html>

@@ -1,0 +1,20 @@
+/* lte IE 9 style*/
+.article  {
+	border-radius: 6px;
+	position: relative;
+}
+
+.hmenubar li a:hover  {
+	-pie-background: linear-gradient( top,#000000 0%, #FFFFFF 100%);
+	position: relative;
+}
+
+.hmenubar li a  {
+	position: relative;
+}
+
+a.article_two_btn   {
+	border-radius: 4px;
+	position: relative;
+}
+
