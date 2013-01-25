@@ -11,6 +11,18 @@ body {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 body h1 {
 	font-size: 30px;
 	font-weight: bold;
@@ -754,6 +766,18 @@ img.article_ten_img{
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 .subscribe {
 	margin: 0;
 	padding: 25px 25px 0 25px;
@@ -809,6 +833,18 @@ img.article_ten_img{
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 .joinus h2{
 	margin-top: 0;
 	margin-bottom: 21px;
@@ -826,6 +862,18 @@ img.article_ten_img{
 	-webkit-transform:none;
 	-webkit-box-shadow:none;
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -909,9 +957,10 @@ img.article_ten_img{
 .image {
 	display:block;
 	margin-right:auto;
-	height:105px;
+	height:124px;
 	margin-left:auto;
-	padding-top:15px;
+	padding-top:5px;
+	width:281px;
 }
 
 .image1 {

@@ -1,7 +1,8 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
+ 
  <head>
- <style>
+  <style>
    #shade {
    	visibility: hidden;
    	z-index: 999;
@@ -35,12 +36,12 @@
         text-align:center;
    }
   </style>
- <!--[if lte IE 9]>
+  <!--[if lte IE 9]>
    <style type="text/css" title="ie-style-css">
     /* lte IE 9 style*/
    </style>
   <![endif]-->
- <script>
+  <script>
    function newsletterSignup() {
    	sh = document.getElementById("shade");
    	sh.style.visibility = "visible";
@@ -79,15 +80,17 @@
    	icpsignup4073.reset();
    }
   </script>
- <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
- <title>High Country Brass - HOME</title>
- <link href="../stylesheets/layout-css-3.css" rel="stylesheet" type="text/css" />
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <title>High Country Brass - HOME</title>
+  <link href="../stylesheets/layout-css-3.css" rel="stylesheet" type="text/css" />
+  <title>High Country Brass - HOME</title>
+  <title>High Country Brass - SUPPORT</title>
  </head>
 <body>
   <div id="shade"></div>
 <div id="popup">
    <div>
-    	<h2>Subscribe to the High Country Brass Newsletter</h2>
+     <h2>Subscribe to the High Country Brass Newsletter</h2>
 
     <p align="left">By subscribing to the High Country Brass Newsletter, you will receive, via email, regular monthly updates about the latest corps news and occasional special announcements.</p>
     <p align="left">Your privacy is important to us. We will never share, sell, or rent your subscriber data with anyone without your advance permission or unless ordered by a court of law.</p>
@@ -97,14 +100,13 @@
      <table width="400px" class="signupframe" border="0" cellspacing="0" cellpadding="3">
       <tbody>
        <tr>
-        <td colspan="2"><b><font size="3">*</font><font size="2"> = Required Field</font></b>
+        <td colspan="2"><b><font size="3">*</font><font size="2"> = Required Field</font></b> 
          <br/>
          <br/>
         </td>
        </tr>
        <tr>
-        <td valign="top" align="right" width="120px"> <strong>
-                    <font size="3" face="Arial,Helvetica, sans-serif">*</font> <font size="2">Email</font></strong>
+        <td valign="top" align="right" width="120px"><strong> <font size="3" face="Arial,Helvetica, sans-serif">*</font> <font size="2">Email</font></strong>
 
         </td>
         <td align="left" width="280px">
@@ -112,8 +114,7 @@
         </td>
        </tr>
        <tr>
-        <td valign="top" align="right"> <strong>
-                    <font size="3" face="Arial,Helvetica, sans-serif">*</font> <font size="2">First Name</font></strong>
+        <td valign="top" align="right"><strong> <font size="3" face="Arial,Helvetica, sans-serif">*</font> <font size="2">First Name</font></strong>
 
         </td>
         <td align="left">
@@ -121,8 +122,7 @@
         </td>
        </tr>
        <tr>
-        <td valign="top" align="right"> <strong>
-                    <font size="3" face="Arial,Helvetica, sans-serif">*</font> <font size="2">Last Name</font></strong>
+        <td valign="top" align="right"><strong> <font size="3" face="Arial,Helvetica, sans-serif">*</font> <font size="2">Last Name</font></strong>
 
         </td>
         <td align="left">
@@ -130,7 +130,7 @@
         </td>
        </tr>
        <tr>
-        <td valign="top" align="right"> <font size="2">Business Name</font>
+        <td valign="top" align="right"><font size="2">Business Name</font>
 
         </td>
         <td align="left">
@@ -138,7 +138,7 @@
         </td>
        </tr>
        <tr>
-        <td valign="top" align="right"> <font size="2">Address 1</font>
+        <td valign="top" align="right"><font size="2">Address 1</font>
 
         </td>
         <td align="left">
@@ -146,7 +146,7 @@
         </td>
        </tr>
        <tr>
-        <td valign="top" align="right"> <font size="2">Address 2</font>
+        <td valign="top" align="right"><font size="2">Address 2</font>
 
         </td>
         <td align="left">
@@ -154,7 +154,7 @@
         </td>
        </tr>
        <tr>
-        <td valign="top" align="right"> <font size="2">City</font>
+        <td valign="top" align="right"><font size="2">City</font>
 
         </td>
         <td align="left">
@@ -162,7 +162,7 @@
         </td>
        </tr>
        <tr>
-        <td valign="top" align="right"> <font size="2">State</font>
+        <td valign="top" align="right"><font size="2">State</font>
 
         </td>
         <td align="left">
@@ -170,7 +170,7 @@
         </td>
        </tr>
        <tr>
-        <td valign="top" align="right"> <font size="2">Zip</font>
+        <td valign="top" align="right"><font size="2">Zip</font>
 
         </td>
         <td align="left">
@@ -178,7 +178,7 @@
         </td>
        </tr>
        <tr>
-        <td valign="top" align="right"> <font size="2">Home Phone</font>
+        <td valign="top" align="right"><font size="2">Home Phone</font>
 
         </td>
         <td align="left">
@@ -186,7 +186,7 @@
         </td>
        </tr>
        <tr>
-        <td valign="top" align="right"> <font size="2">Cell Phone</font>
+        <td valign="top" align="right"><font size="2">Cell Phone</font>
 
         </td>
         <td align="left">
@@ -194,7 +194,7 @@
         </td>
        </tr>
        <tr>
-        <td valign="top" align="right"> <font size="2">Work Phone</font>
+        <td valign="top" align="right"><font size="2">Work Phone</font>
 
         </td>
         <td align="left">
@@ -208,76 +208,76 @@
        <tr>
         <td valign="top" align="right">
          <input type="checkbox" id="fields_friend" name="fields_friend">
-         <label for="fields_friend"><font size="2"></font>
+         <label for="fields_friend"><font size="2"></font> 
          </label>
         </td>
-        <td align="left"> <font size="2">Friend of HCB</font>
+        <td align="left"><font size="2">Friend of HCB</font>
 
         </td>
        </tr>
        <tr>
         <td valign="top" align="right">
          <input type="checkbox" id="fields_supporter" name="fields_supporter">
-         <label for="fields_supporter"><font size="2"></font>
+         <label for="fields_supporter"><font size="2"></font> 
          </label>
         </td>
-        <td align="left"> <font size="2">Supporter of HCB</font>
+        <td align="left"><font size="2">Supporter of HCB</font>
 
         </td>
        </tr>
        <tr>
         <td valign="top" align="right">
          <input type="checkbox" id="fields_memberbrass" name="fields_memberbrass">
-         <label for="fields_memberbrass"><font size="2"></font>
+         <label for="fields_memberbrass"><font size="2"></font> 
          </label>
         </td>
-        <td align="left"> <font size="2">Performing Member - HCB Brass</font>
+        <td align="left"><font size="2">Performing Member - HCB Brass</font>
 
         </td>
        </tr>
        <tr>
         <td valign="top" align="right">
          <input type="checkbox" id="fields_memberdrum" name="fields_memberdrum">
-         <label for="fields_memberdrum"><font size="2"></font>
+         <label for="fields_memberdrum"><font size="2"></font> 
          </label>
         </td>
-        <td align="left"> <font size="2">Performing Member - HCB Drumline</font>
+        <td align="left"><font size="2">Performing Member - HCB Drumline</font>
 
         </td>
        </tr>
        <tr>
         <td valign="top" align="right">
          <input type="checkbox" id="fields_memberpit" name="fields_memberpit">
-         <label for="fields_memberpit"><font size="2"></font>
+         <label for="fields_memberpit"><font size="2"></font> 
          </label>
         </td>
-        <td align="left"> <font size="2">Performing Member - HCB Pit</font>
+        <td align="left"><font size="2">Performing Member - HCB Pit</font>
 
         </td>
        </tr>
        <tr>
         <td valign="top" align="right">
          <input type="checkbox" id="fields_memberguard" name="fields_memberguard">
-         <label for="fields_memberguard"><font size="2"></font>
+         <label for="fields_memberguard"><font size="2"></font> 
          </label>
         </td>
-        <td align="left"> <font size="2">Performing Member - HCB Color Guard</font>
+        <td align="left"><font size="2">Performing Member - HCB Color Guard</font>
 
         </td>
        </tr>
        <tr>
         <td valign="top" align="right">
          <input type="checkbox" id="fields_memberstaff" name="fields_memberstaff">
-         <label for="fields_memberstaff"><font size="2"></font>
+         <label for="fields_memberstaff"><font size="2"></font> 
          </label>
         </td>
-        <td align="left"> <font size="2">Staff Member/Instructor for HCB</font>
+        <td align="left"><font size="2">Staff Member/Instructor for HCB</font> 
          <br/>
          <br/>
         </td>
        </tr>
        <tr>
-        <td/>
+        <td></td>
         <td align="left">
          <input type="button" value="Submit" onclick="submitNewsLetterSignUp()">
          <input type="reset" value="Reset">
@@ -291,13 +291,10 @@
      <input type="hidden" name="formid" value="4073">
      <input type="hidden" name="reallistid" value="1">
      <input type="hidden" name="doubleopt" value="1">
-    </form>
-    <a href="#" onclick="closeNewsLetterSignUp()">Close</a>
+    </form> <a href="#" onclick="closeNewsLetterSignUp()">Close</a> 
    </div>
-  </div>
-  <!-- TemplateBeginEditable name="doctitle" -->
-  <title>High Country Brass - HOME</title>
-  <!-- TemplateEndEditable -->
+ </div>
+ <!-- TemplateBeginEditable name="doctitle" --> <!-- TemplateEndEditable -->
 <link href="../stylesheets/reset.css" rel="stylesheet" type="text/css" />
   <script type="text/javascript" src="../scripts/browser-compatibility.js"></script>
   <link href="../stylesheets/layout-css-3.css" rel="stylesheet" type="text/css" />
@@ -305,7 +302,7 @@
   <div class="main_wrapper cf">
    <div class="header cf">
     <div class="logo_wrapper ui-droppable">
-     <img alt="High Country Brass" width="255" class="image" src="../images/HighCountryBrass.png" />
+     <img alt="High Country Brass" class="image" src="../images/HighCountryBrass2.png" />
     </div>
     <div class="column_1">
      <ul class="hmenubar cf">
