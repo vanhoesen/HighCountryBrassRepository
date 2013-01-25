@@ -1,9 +1,15 @@
 body {
-	font-family: Arial, Helvetica, sans-serif;
-	text-align: left;
-	background-image:url("../images/horns.jpg");
+	font-family:Arial, Helvetica, sans-serif;
+	text-align:left;
+	background-image:url(../images/horns.jpg);
 	min-height:1264px;
+	-webkit-transform:none;
+	-webkit-box-shadow:none;
 }
+
+
+
+
 
 body h1 {
 	font-size: 30px;
@@ -58,7 +64,7 @@ body li {
 
 .main_wrapper {
 	clear: both;
-	min-height: 1211px;
+	min-height: 1226px;
 	width: 960px;
 	margin: 100px auto 0 auto;
 	background-color:#FFFFFF;
@@ -85,7 +91,7 @@ body li {
 
 .content_wrapper {
 	clear: both;
-	min-height: 1037px;
+	min-height: 1052px;
 }
 
 .slideshow {
@@ -314,7 +320,7 @@ body li {
 
 .content {
 	clear: both;
-	min-height: 751px;
+	min-height: 519px;
 }
 
 .row_20 {
@@ -623,56 +629,130 @@ img.article_ten_img{
 	margin-bottom: 22px;
 	margin-top: 0;
 	margin-bottom: 21px;
-}
-
-.hor_social_buttons_with_label .facebook{
-	background: transparent url("../images/xtd_facebook_small.png") no-repeat left top;
+}.hor_social_buttons_with_label .facebook {
+	background-image:url(../images/xtd_facebook_small.png);
+	background-attachment:initial;
+	background-position-x:0%;
+	background-position-y:0%;
+	background-origin:initial;
+	background-clip:initial;
+	background-color:transparent;
 	margin-right:0px;
 	margin-left:20px;
-	color:#FFFFFF;
+	color:rgb(255, 255, 255);
 	font-size:12px;
 	padding-left:0px;
+	-webkit-transform:none;
+	-webkit-box-shadow:none;
 }
 
-.hor_social_buttons_with_label .facebook:hover{
-	background: transparent url("../images/xtd_facebook_small_over.png") no-repeat left top;
+.hor_social_buttons_with_label .facebook:hover {
+	background-image:url(../images/xtd_facebook_small_over.png);
+	background-attachment:initial;
+	background-position-x:0%;
+	background-position-y:0%;
+	background-origin:initial;
+	background-clip:initial;
+	background-color:transparent;
+	-webkit-transform:none;
+	-webkit-box-shadow:none;
 }
 
-.hor_social_buttons_with_label .facebook:active{
-	background: transparent url("../images/xtd_facebook_small_over.png") no-repeat left top;
+.hor_social_buttons_with_label .facebook:active {
+	background-image:url(../images/xtd_facebook_small_over.png);
+	background-attachment:initial;
+	background-position-x:0%;
+	background-position-y:0%;
+	background-origin:initial;
+	background-clip:initial;
+	background-color:transparent;
+	-webkit-transform:none;
+	-webkit-box-shadow:none;
 }
 
-.hor_social_buttons_with_label .twitter{
-	background: transparent url("../images/xtd_twitter_small.png") no-repeat left top;
+.hor_social_buttons_with_label .twitter {
+	background-image:url(../images/xtd_twitter_small.png);
+	background-attachment:initial;
+	background-position-x:0%;
+	background-position-y:0%;
+	background-origin:initial;
+	background-clip:initial;
+	background-color:transparent;
 	margin-right:0px;
 	margin-left:20px;
-	color:#FFFFFF;
+	color:rgb(255, 255, 255);
 	font-size:12px;
+	-webkit-transform:none;
+	-webkit-box-shadow:none;
 }
 
-.hor_social_buttons_with_label .twitter:hover{
-	background: transparent url("../images/xtd_twitter_small_over.png") no-repeat left top;
+.hor_social_buttons_with_label .twitter:hover {
+	background-image:url(../images/xtd_twitter_small_over.png);
+	background-attachment:initial;
+	background-position-x:0%;
+	background-position-y:0%;
+	background-origin:initial;
+	background-clip:initial;
+	background-color:transparent;
+	-webkit-transform:none;
+	-webkit-box-shadow:none;
 }
 
-.hor_social_buttons_with_label .twitter:active{
-	background: transparent url("../images/xtd_twitter_small_over.png") no-repeat left top;
+.hor_social_buttons_with_label .twitter:active {
+	background-image:url(../images/xtd_twitter_small_over.png);
+	background-attachment:initial;
+	background-position-x:0%;
+	background-position-y:0%;
+	background-origin:initial;
+	background-clip:initial;
+	background-color:transparent;
+	-webkit-transform:none;
+	-webkit-box-shadow:none;
 }
 
-.hor_social_buttons_with_label .googleplus{
-	background: transparent url("../images/xtd_googleplus_small.png") no-repeat left top;
+.hor_social_buttons_with_label .googleplus {
+	background-image:url(../images/xtd_googleplus_small.png);
+	background-attachment:initial;
+	background-position-x:0%;
+	background-position-y:0%;
+	background-origin:initial;
+	background-clip:initial;
+	background-color:transparent;
 	margin-right:0px;
 	margin-left:20px;
-	color:#FFFFFF;
+	color:rgb(255, 255, 255);
 	font-size:12px;
+	-webkit-transform:none;
+	-webkit-box-shadow:none;
 }
 
-.hor_social_buttons_with_label .googleplus:hover{
-	background: transparent url("../images/xtd_googleplus_small_over.png") no-repeat left top;
+.hor_social_buttons_with_label .googleplus:hover {
+	background-image:url(../images/xtd_googleplus_small_over.png);
+	background-attachment:initial;
+	background-position-x:0%;
+	background-position-y:0%;
+	background-origin:initial;
+	background-clip:initial;
+	background-color:transparent;
+	-webkit-transform:none;
+	-webkit-box-shadow:none;
 }
 
-.hor_social_buttons_with_label .googleplus:active{
-	background: transparent url("../images/xtd_googleplus_small_over.png") no-repeat left top;
+.hor_social_buttons_with_label .googleplus:active {
+	background-image:url(../images/xtd_googleplus_small_over.png);
+	background-attachment:initial;
+	background-position-x:0%;
+	background-position-y:0%;
+	background-origin:initial;
+	background-clip:initial;
+	background-color:transparent;
+	-webkit-transform:none;
+	-webkit-box-shadow:none;
 }
+
+
+
+
 
 .subscribe {
 	margin: 0;
@@ -696,32 +776,60 @@ img.article_ten_img{
 	display: block;
 	float: left;
 	color: #6C6C6C;
+}.subscribe .button {
+	display:block;
+	background-image:url(../images/xtd_subscribe.png);
+	background-attachment:initial;
+	background-position-x:0%;
+	background-position-y:0%;
+	background-origin:initial;
+	background-clip:initial;
+	background-color:transparent;
+	width:38px;
+	height:38px;
+	float:left;
+	cursor:default;
+	-webkit-transform:none;
+	-webkit-box-shadow:none;
 }
 
-.subscribe .button{
-	display: block;
-	background: transparent url("../images/xtd_subscribe.png") no-repeat left top;
-	width: 38px;
-	height: 38px;
-	float: left;
-	cursor: default;
+.subscribe .button:hover {
+	background-image:url(../images/xtd_subscribe_over.png);
+	background-attachment:initial;
+	background-position-x:0%;
+	background-position-y:0%;
+	background-origin:initial;
+	background-clip:initial;
+	background-color:transparent;
+	-webkit-transform:none;
+	-webkit-box-shadow:none;
 }
 
-.subscribe .button:hover{
-	background: transparent url("../images/xtd_subscribe_over.png") no-repeat left top;
-}
+
+
+
 
 .joinus h2{
 	margin-top: 0;
 	margin-bottom: 21px;
+}.joinus .quotation {
+	padding-top:12px;
+	margin-bottom:16px;
+	background-image:url(../images/xtd_footer_quote.png);
+	background-attachment:initial;
+	background-position-x:0%;
+	background-position-y:0%;
+	background-origin:initial;
+	background-clip:initial;
+	background-color:transparent;
+	text-indent:16px;
+	-webkit-transform:none;
+	-webkit-box-shadow:none;
 }
 
-.joinus .quotation{
-	padding-top: 12px;
-	margin-bottom: 16px;
-	background: transparent url("../images/xtd_footer_quote.png") no-repeat left top;
-	text-indent: 16px;
-}
+
+
+
 
 .joinus .author{
 	font-weight: bold;
