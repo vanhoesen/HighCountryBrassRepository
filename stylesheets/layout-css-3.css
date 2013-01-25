@@ -58,7 +58,7 @@ body li {
 
 .main_wrapper {
 	clear: both;
-	min-height: 1347px;
+	min-height: 1211px;
 	width: 960px;
 	margin: 100px auto 0 auto;
 	background-color:#FFFFFF;
@@ -85,7 +85,7 @@ body li {
 
 .content_wrapper {
 	clear: both;
-	min-height: 1173px;
+	min-height: 1037px;
 }
 
 .slideshow {
@@ -314,7 +314,7 @@ body li {
 
 .content {
 	clear: both;
-	min-height: 939px;
+	min-height: 751px;
 }
 
 .row_20 {
