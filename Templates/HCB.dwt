@@ -277,10 +277,10 @@
         </td>
        </tr>
        <tr>
-        <td colspan="2" align="center">
+        <td/>
+        <td align="left">
          <input type="button" value="Submit" onclick="submitNewsLetterSignUp()">
          <input type="reset" value="Reset">
-         <input type="button" onclick="closeNewsLetterSignUp()" value="Close">
         </td>
        </tr>
       </tbody>
@@ -292,6 +292,7 @@
      <input type="hidden" name="reallistid" value="1">
      <input type="hidden" name="doubleopt" value="1">
     </form>
+    <a href="#" onclick="closeNewsLetterSignUp()">Close</a>
    </div>
   </div>
   <!-- TemplateBeginEditable name="doctitle" -->
